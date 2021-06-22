@@ -8,10 +8,12 @@
 /* common */
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: lightgray;
 }
 
 /* header */
 header{
+  background-color: #FFFFFF;
   height: 10%;
 }
 
@@ -25,3 +27,43 @@ header{
   vertical-align: middle;
   font-size: 2.5em;
 }
+
+/* main */
+/* main{
+  background-color: lightslategray;
+} */
+
+.main-container{
+  background-color: #FFFFFF;
+  width: 60%;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+
+.main-top{
+  border-bottom: 1px solid lightgray;
+}
+
+.buttons{
+  padding: 10px 40px;
+}
+
+button{
+  height: 30px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  line-height: 0;
+}
+
+.button-blue{
+  color: #FFFFFF;
+  background-color: #20A9E5;
+}
+
+.button-white{
+  color: lightgray;
+  background-color: #FFFFFF;
+  border: 1px solid lightgray;
+}
+
