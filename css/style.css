@@ -29,10 +29,6 @@ header{
 }
 
 /* main */
-/* main{
-  background-color: lightslategray;
-} */
-
 .main-container{
   background-color: #FFFFFF;
   width: 60%;
@@ -65,5 +61,17 @@ button{
   color: lightgray;
   background-color: #FFFFFF;
   border: 1px solid lightgray;
+}
+
+.main-bottom{
+  height: 600px;
+}
+
+.section{
+  padding: 20px 40px;
+}
+
+li{
+  list-style: none;
 }
 
